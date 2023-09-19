@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #555
+}
+h1 {
+  font-weight: bold;
+  margin: 0;
+}
+h2 {
+  text-align: center;
+  color: orangered;
+}
+
+
+.container {
+  margin: auto;
+  align-items: center;
+  background-image: linear-gradient(to top, white, #555 );
+  /*background-color: #fff;*/
+  border-radius: 0px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  min-height: 480px;
+}
+
+table{
+  border: 1px solid rgba(0, 0, 0, 0.213);
+}
+th{
+  background-color: orangered;
+  width: 100px;
+}
+tr{
+  text-align: center;
+}
+
+
+.mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 200px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+.mySidenav a:hover {
+  left: 0;
+}
+
+.projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+.contact {
+  top: 190px;
+  background-color: #555
+}
+
+.blog {
+  top: 250px;
+  background-color: #2196F3;
+}
+
+p{
+  text-align: center;
+  color: rgb(2, 1, 1);
+  font-weight: bold;
+}
+
+

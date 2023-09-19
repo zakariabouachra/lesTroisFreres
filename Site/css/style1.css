@@ -1,0 +1,62 @@
+button {
+    border-radius: 20px;
+    border: 0;  ;
+    width:200px;
+    height:50px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    background-color:orangered;
+    color : black;
+}
+button:active {
+    transform: scale(0.95);
+}
+button:focus {
+     outline: none;
+}
+.quantite{
+    width: 70px;
+    height: 40px;
+    text-align:center;
+    font-size:20px;
+
+}
+button:hover{
+    background-color:black;
+    color:white;
+    cursor: pointer;
+    border: 0px;
+
+}
+.counter span {
+    display: block;
+    font-size: 35px;
+    cursor: pointer;
+    color: orangered;
+    font-weight:bold;
+    
+}
+
+.counter {
+    width: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left:-0px;
+}
+.counter input {
+    border-radius: 20px;
+    font-weight:bold;
+    width: 50px;
+    border: 1px transparent;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    appearance: none;
+    outline: 0;
+}
